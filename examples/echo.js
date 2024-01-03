@@ -1,4 +1,4 @@
-/**
+/##
 
 	The MIT License
 	
@@ -22,7 +22,7 @@
 	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 	THE SOFTWARE.
 
- */
+ #/
 
 var xmpp = require('../lib/simple-xmpp');
 var argv = process.argv;
@@ -50,3 +50,4 @@ xmpp.connect({
     host        : 'talk.google.com',
     port        : 5222
 });
+ 
